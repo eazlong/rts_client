@@ -20,7 +20,7 @@ public class RTMP {
         }
     }
 
-    public native void initialize( String url );
-    public native void send( byte buf[], int size );
-    public native void stop();
+    public native int initialize( String url );
+    public native int send( byte buf[], int size );
+    public native int stop();
 }

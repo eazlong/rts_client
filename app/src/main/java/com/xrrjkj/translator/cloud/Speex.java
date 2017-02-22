@@ -24,14 +24,14 @@ public class Speex {
     private void load() {
         try {
             System.loadLibrary("speex");
-        } catch (Exception e) {
+        } catch (Throwable e) {
             e.printStackTrace();
         }
     }
 
-    public static native int open(int compression);
-    public static native int getFrameSize();
-    public static native int decode(byte encoded[], short lin[], int size);
-    public static native int encode(short lin[], int offset, byte encoded[], int size);
-    public static native void close();
+    public native int open(int compression);
+    public native int getFrameSize();
+    public native int decode(byte encoded[], short lin[], int size);
+    public native int encode(short lin[], int offset, byte encoded[], int size);
+    public native void close();
 }

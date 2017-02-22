@@ -1,10 +1,5 @@
 package com.xrrjkj.translator.cloud;
 
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-import android.util.Log;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,6 +7,11 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
+
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import android.util.Log;
 
 /**
  * Created by Administrator on 2016/7/19.
@@ -23,7 +23,7 @@ public class ControlThread implements Runnable {
     // 定义向UI线程发送消息的Handler对象
     Handler handler;
     // 定义接收UI线程的Handler对象
-    Handler revHandler;
+    public Handler revHandler;
     // 该线程处理Socket所对用的输入输出流
     BufferedReader br = null;
     OutputStream os = null;
@@ -49,7 +49,7 @@ public class ControlThread implements Runnable {
                     char buf[] = new char[1024];
                     // 不断的读取Socket输入流的内容
                     try {
-                        while ((len = br.read( buf, 0, 1024 )) > 0 ) {
+                        while ((len = br.read( buf, 0, 1024 )) != 0 ) {
                             Log.d( TAG, "thread read start! " + len );
                             String str = new String(buf);
                             str = str.substring( 0, len-1 );
@@ -99,9 +99,17 @@ public class ControlThread implements Runnable {
         } catch (IOException io) {
             Log.d( TAG, "thread read error!" );
             io.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
         }
 
+    }
+
+    public void closeSocket(){
+        if(s !=null){
+            try{
+                s.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
     }
 }

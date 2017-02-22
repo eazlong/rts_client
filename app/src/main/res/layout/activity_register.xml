@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/bg_white"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/view_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/iv_head"
+        android:src="@mipmap/ic_add_head"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/shap_bg_gray"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="240dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView5"
+                android:src="@mipmap/ic_username"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:background="@null"
+                android:hint="@string/username"
+                android:textColorHint="@color/hint_text"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginLeft="12dp"
+                android:maxLength="8"
+                android:ems="10"
+                android:id="@+id/ed_username"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView5"
+                android:layout_toEndOf="@+id/imageView5" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView3"
+                android:src="@mipmap/ic_email"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:background="@null"
+                android:hint="@string/email"
+                android:textColorHint="@color/hint_text"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginLeft="12dp"
+                android:ems="10"
+                android:id="@+id/ed_email"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView3"
+                android:layout_toEndOf="@+id/imageView3" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:layout_height="59dp">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/imageView4"
+                android:src="@mipmap/ic_password"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:background="@null"
+                android:hint="@string/input_pwd"
+                android:textColorHint="@color/hint_text"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginLeft="12dp"
+                android:maxLength="16"
+                android:ems="10"
+                android:id="@+id/ed_pwd"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/imageView4"
+                android:layout_toEndOf="@+id/imageView4" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_bg_blue"
+            android:textColor="@color/text_white"
+            android:textSize="@dimen/text_size_large"
+            android:text="@string/register"
+            android:id="@+id/btn_register" />
+
+    </LinearLayout>
+
+</LinearLayout>

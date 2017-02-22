@@ -1,0 +1,295 @@
+
+{
+	"buildFiles" : 
+	[
+		"F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/CMakeLists.txt",
+		"F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build F:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"rtmp-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "rtmp",
+			"buildCommand" : "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build F:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target rtmp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Drtmp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/librtmp/amf.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Drtmp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/librtmp/hashswf.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Drtmp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/librtmp/log.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Drtmp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/librtmp/parseurl.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Drtmp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/librtmp/rtmp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Drtmp_EXPORTS -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/rtmp/com_xrrjkj_translator_cloud_RTMP.cpp",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/build/intermediates/cmake/release/obj/armeabi-v7a/librtmp.so",
+			"toolchain" : "1733420917"
+		},
+		"speex-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "speex",
+			"buildCommand" : "C:\\Users\\Administrator\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build F:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target speex",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem C:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -Os -DNDEBUG -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/speex.cpp",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/bits.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/cb_search.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_5_64_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_5_256_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_8_128_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_10_16_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_10_32_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/exc_20_32_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/filters.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/gain_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/gain_table_lbr.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/hexc_10_32_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/hexc_table.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/high_lsp_tables.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/kiss_fft.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/kiss_fftr.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/lpc.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/lsp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/lsp_tables_nb.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/ltp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/modes.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/modes_wb.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/nb_celp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/quant_lsp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/sb_celp.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/smallft.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/speex.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/speex_callbacks.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/speex_header.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/stereo.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/vbr.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/vorbis_psy.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/vq.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/platforms/android-15/arch-arm -Dspeex_EXPORTS -IF:\\code\\wanglei\\xinrui_asr\\rts_android_client\\app\\src\\main\\jni\\speex\\..\\rtmp  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -DNO_CRYPTO -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/src/main/jni/speex/libspeex/window.c",
+					"workingDirectory" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "F:/code/wanglei/xinrui_asr/rts_android_client/app/build/intermediates/cmake/release/obj/armeabi-v7a/libspeex.so",
+			"toolchain" : "1733420917"
+		}
+	},
+	"toolchains" : 
+	{
+		"1733420917" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

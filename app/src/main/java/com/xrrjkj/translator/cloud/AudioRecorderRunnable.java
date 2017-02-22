@@ -8,6 +8,7 @@ import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
+import android.os.Handler;
 import android.util.Log;
 
 import java.util.concurrent.LinkedBlockingQueue;
@@ -27,8 +28,7 @@ public class AudioRecorderRunnable implements Runnable {
     private AudioManager mAudioManager = null;
     private Context mContext = null;
 
-
-    AudioRecorderRunnable(LinkedBlockingQueue<AudioRawData> queue, float gain, Context context)  {
+    public AudioRecorderRunnable(LinkedBlockingQueue<AudioRawData> queue, float gain, Context context)  {
         this.mBufferQueue = queue;
         this.mGain = gain;
         this.mContext = context;
@@ -108,14 +108,14 @@ public class AudioRecorderRunnable implements Runnable {
         int         ix       = 0;
         float gain = this.mGain;
         try {
-            int n = AudioRecord.getMinBufferSize(8000, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
+            int n = AudioRecord.getMinBufferSize(8000, AudioFormat.CHANNEL_IN_MONO,AudioFormat.ENCODING_PCM_16BIT);
             recorder = new AudioRecord(MediaRecorder.AudioSource.MIC,
                     8000,
                     AudioFormat.CHANNEL_IN_MONO,
                     AudioFormat.ENCODING_PCM_16BIT,
                     n*10);
-//            recorder.setPositionNotificationPeriod(8000);
-            startBluetooth();
+            //recorder.setPositionNotificationPeriod(8000);
+            //startBluetooth();
 
             recorder.startRecording();
             while(!this.mStopped) {
@@ -125,7 +125,7 @@ public class AudioRecorderRunnable implements Runnable {
                     for (int i = 0; i < numRead; ++i)
                         buffer[i] = (short) Math.min((int) (buffer[i] * gain), (int) Short.MAX_VALUE);
                 }
-                Log.i( TAG, "Record data:"+ n );
+                //Log.i( TAG, "Record data:"+ n );
                 this.mBufferQueue.offer(new AudioRawData(buffer, n));
 
             }
@@ -135,7 +135,7 @@ public class AudioRecorderRunnable implements Runnable {
             if (recorder != null) {
                 recorder.stop();
                 recorder.release();
-                stopBluetooth();
+                //stopBluetooth();
             }
             Log.d(TAG, "thread exit.");
         }

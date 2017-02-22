@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="13dp"
+        android:background="@null"
+        android:id="@+id/editText"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/text_black2"
+        android:hint="@string/input_join_roomid"
+        android:layout_gravity="center_horizontal" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line"
+        />
+</LinearLayout>

@@ -16,8 +16,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xrrjkj.translator.R;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -149,7 +147,7 @@ public class MainActivity extends AppCompatActivity
         clientThread = new ControlThread(handler);
 
         // 客户端启动ClientThread线程创建网络连接、读取来自服务器的数据
-        new Thread(clientThread,"ControlThread").start();
+        new Thread(clientThread).start();
     }
     private class TTSListener implements TextToSpeech.OnInitListener {
 

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="card_background">#ffffff</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+    <color name="card_shadow">#10000000</color>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorBlack">#000000</color>
+
+    <color name="text_black">#616161</color>
+    <color name="text_black2">#666666</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_blue">#5677FC</color>
+    <color name="text_red">#FF3928</color>
+    <color name="text_gray">#AEAEAE</color>
+    <color name="bg_blue">#5677FC</color>
+    <color name="bg_green">#1BCE9F</color>
+    <color name="bg_green2">#1CCE9F</color>
+    <color name="bg_green3">#59069f77</color>
+    <color name="bg_navy">#4DCED8</color>
+    <color name="bg_blue2">#93A6FF</color>
+    <color name="bg_white">#ffffff</color>
+    <color name="stroke_gray">#ebebeb</color>
+    <color name="hint_text">#999999</color>
+    <color name="line">#979797</color>
+    <color name="line2">#303D4f</color>
 </resources>

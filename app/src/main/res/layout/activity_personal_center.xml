@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/bg_white"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/view_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/iv_head"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="27dp"
+        android:layout_height="60dp">
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ic_username"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创聊1009"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_normal"
+            android:id="@+id/tv_name" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:background="@color/line2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="27dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="27dp"
+        android:layout_height="60dp">
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/ic_email"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xinruirjkj@xrrjkj.com"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_normal"
+            android:id="@+id/tv_email" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:background="@color/line2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:background="@drawable/btn_bg_blue"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/change"
+        android:id="@+id/btn_change"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

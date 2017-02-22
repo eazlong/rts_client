@@ -1,0 +1,6 @@
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/speex.dir
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/rtmp/CMakeFiles/rtmp.dir
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/rtmp/CMakeFiles/edit_cache.dir
+F:/code/wanglei/xinrui_asr/rts_android_client/app/.externalNativeBuild/cmake/release/armeabi-v7a/rtmp/CMakeFiles/rebuild_cache.dir

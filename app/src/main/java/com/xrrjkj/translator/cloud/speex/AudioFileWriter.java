@@ -229,7 +229,7 @@ public abstract class AudioFileWriter
    * @exception IOException
    */  
   public static void writeShort(DataOutput out, short v)
-    throws IOException
+    throws IOException 
   {
     out.writeByte((0xff & v));
     out.writeByte((0xff & (v >>> 8)));
@@ -242,7 +242,7 @@ public abstract class AudioFileWriter
    * @exception IOException
    */
   public static void writeInt(DataOutput out, int v)
-    throws IOException
+    throws IOException 
   {
     out.writeByte(0xff & v);
     out.writeByte(0xff & (v >>>  8));
@@ -257,7 +257,7 @@ public abstract class AudioFileWriter
    * @exception IOException
    */
   public static void writeShort(OutputStream os, short v)
-    throws IOException
+    throws IOException 
   {
     os.write((0xff & v));
     os.write((0xff & (v >>> 8)));
@@ -270,7 +270,7 @@ public abstract class AudioFileWriter
    * @exception IOException
    */
   public static void writeInt(OutputStream os, int v)
-    throws IOException
+    throws IOException 
   {
     os.write(0xff & v);
     os.write(0xff & (v >>>  8));

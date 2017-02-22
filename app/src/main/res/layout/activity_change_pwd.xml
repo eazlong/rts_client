@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_white"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/view_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/shap_bg_gray"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:maxLength="16"
+            android:background="@null"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:textColorHint="@color/text_gray"
+            android:hint="@string/input_hint1"
+            android:id="@+id/ed_old" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shap_bg_gray"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:maxLength="16"
+            android:background="@null"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:textColorHint="@color/text_gray"
+            android:hint="@string/input_hint2"
+            android:id="@+id/ed_new" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shap_bg_gray"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:ems="10"
+            android:maxLength="16"
+            android:background="@null"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:textColorHint="@color/text_gray"
+            android:hint="@string/input_hint3"
+            android:id="@+id/ed_new2" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:text="@string/confirm"
+        android:id="@+id/btn_confirm"
+        android:background="@drawable/btn_bg_blue"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_large"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

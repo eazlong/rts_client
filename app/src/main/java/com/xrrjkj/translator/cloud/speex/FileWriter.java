@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class FileWriter {
     //写数据到SD中的文件
-    public void writeFileSdcardFile(String fileName, String write_str) throws IOException {
+    public void writeFileSdcardFile(String fileName,String write_str) throws IOException {
         try{
 
             FileOutputStream fout = new FileOutputStream(fileName);
@@ -26,7 +26,7 @@ public class FileWriter {
 
 
     //读SD中的文件
-    public String readFileSdcardFile(String fileName) throws IOException {
+    public String readFileSdcardFile(String fileName) throws IOException{
         String res="";
         try{
             FileInputStream fin = new FileInputStream(fileName);

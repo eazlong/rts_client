@@ -22,7 +22,7 @@ public class ProcessSpeexRunnable implements Runnable {
 
     private int totByte;
 
-    ProcessSpeexRunnable(LinkedBlockingQueue<AudioRawData> queue, ProcessSpeexListener listener) {
+    public ProcessSpeexRunnable(LinkedBlockingQueue<AudioRawData> queue, ProcessSpeexListener listener) {
         Log.d(TAG, "speex thread init");
         this.mBufferQueue = queue;
         this.mListener = new WeakReference<ProcessSpeexListener>(listener);

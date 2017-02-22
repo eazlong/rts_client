@@ -40,7 +40,7 @@ public class RTMPRunnable implements Runnable {
             if (mData == sStopFlagData) {
                 mIsRecording = false;
             }else if (mData != null) {
-                Log.d(TAG, "mData size=" + mData.size);
+               // Log.d(TAG, "mData size=" + mData.size);
                 //mSpeexWriteClient.writePacket(mData.processed, mData.size);
                 rtmp.send( mData.processed, mData.size );
             }

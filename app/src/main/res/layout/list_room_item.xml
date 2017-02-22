@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/btn_bg_white2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/iv_head"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="12dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID：123654"
+            android:id="@+id/tv_room_id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_size_large"
+            android:layout_alignTop="@+id/iv_head"
+            android:layout_toRightOf="@+id/iv_head"
+            android:layout_toEndOf="@+id/iv_head" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016/10/20"
+            android:id="@+id/tv_datetime"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/text_size_small"
+            android:layout_marginBottom="8dp"
+            android:layout_alignBottom="@+id/iv_head"
+            android:layout_alignLeft="@+id/tv_room_id"
+            android:layout_alignStart="@+id/tv_room_id" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24"
+            android:layout_marginRight="12dp"
+            android:id="@+id/tv_num"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_red"
+            android:layout_alignTop="@+id/tv_datetime"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/imageView11"
+            android:src="@mipmap/ic_menbers"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/tv_num"
+            android:layout_toLeftOf="@+id/tv_num"
+            android:layout_toStartOf="@+id/tv_num" />
+    </RelativeLayout>
+</LinearLayout>

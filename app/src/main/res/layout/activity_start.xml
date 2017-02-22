@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/start_page_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_ogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这里是创聊的slogan"
+        android:id="@+id/textView"
+        android:textColor="@color/text_white"
+        android:textSize="@dimen/text_size_normal"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/login"
+        android:id="@+id/btn_login"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_blue"
+        android:background="@drawable/btn_bg_white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginBottom="54dp" />
+
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/register"
+        android:background="@drawable/shap_btn_blue_bg"
+        android:id="@+id/btn_register"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_white"
+        android:layout_marginRight="38dp"
+        android:layout_alignTop="@+id/btn_login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

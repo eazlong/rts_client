@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg_white"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include_title_bar"
+        layout="@layout/view_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/llyt_change"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_pwd"
+            android:layout_marginLeft="28dp"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:id="@+id/tv_change" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyt_version"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version"
+            android:layout_marginLeft="28dp"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:id="@+id/tv_version" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llyt_logout"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:layout_marginLeft="28dp"
+            android:textColor="@color/text_black2"
+            android:textSize="@dimen/text_size_large"
+            android:id="@+id/tv_logout" />
+    </LinearLayout>
+
+</LinearLayout>
